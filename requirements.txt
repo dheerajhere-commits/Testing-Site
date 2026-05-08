@@ -1,0 +1,5 @@
+torch
+transformers
+datasets<3
+soundfile
+sentencepiece
