@@ -3,3 +3,4 @@ transformers
 datasets<3
 soundfile
 sentencepiece
+typer>=0.12.0

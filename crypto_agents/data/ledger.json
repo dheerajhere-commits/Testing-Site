@@ -1,0 +1,30 @@
+{
+  "last_updated": "2026-05-08T10:49:03.477943",
+  "agents": {
+    "Executor": {
+      "score": 95,
+      "status": "active",
+      "cooldown_until": null,
+      "history": [
+        {
+          "timestamp": "2026-05-08T10:49:01.476738",
+          "action": "penalty",
+          "amount": -15,
+          "reason": "Failed transaction (wasted gas)"
+        },
+        {
+          "timestamp": "2026-05-08T10:49:03.477930",
+          "action": "reward",
+          "amount": 10,
+          "reason": "Successful claim transaction"
+        }
+      ]
+    },
+    "Solver": {
+      "score": 100,
+      "status": "active",
+      "cooldown_until": null,
+      "history": []
+    }
+  }
+}
