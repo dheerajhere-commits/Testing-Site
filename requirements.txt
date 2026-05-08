@@ -3,3 +3,15 @@ transformers
 datasets<3
 soundfile
 sentencepiece
+typer
+crewai
+moviepy
+gtts
+google-generativeai
+google-api-python-client
+pyyaml
+SQLAlchemy
+pydantic
+requests
+python-dotenv
+asyncio

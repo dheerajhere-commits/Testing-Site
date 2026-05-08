@@ -1,0 +1,22 @@
+# Nexus-100 Configuration File Template
+
+api_keys:
+  google_cloud: "YOUR_GOOGLE_CLOUD_API_KEY"
+  youtube_data_api: "YOUR_YOUTUBE_DATA_API_KEY"
+  instagram_graph_api: "YOUR_INSTAGRAM_GRAPH_API_KEY"
+  gemini_api: "YOUR_GEMINI_API_KEY"
+  pexels_api: "YOUR_PEXELS_API_KEY"
+  pixabay_api: "YOUR_PIXABAY_API_KEY"
+
+settings:
+  concurrency_limit: 10
+  database_path: "database/nexus.db"
+  video_output_dir: "assets/output"
+  stock_footage_dir: "assets/stock"
+  audio_dir: "assets/audio"
+
+upload_settings:
+  randomize_upload_times: true
+  min_delay_minutes: 30
+  max_delay_minutes: 180
+  label_synthetic: true
